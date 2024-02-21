@@ -3,7 +3,7 @@ export default function Home() {
     <main>
       <div className="flex items-center h-dvh bg-field bg-bottom">
         <div className="mx-16">
-          <h1 className="font-bold text-5xl text-rose-100">
+          <h1 className="font-bold md:text-5xl text-4xl text-rose-100">
             Composting today,
             <br />
             for tomorrow.
