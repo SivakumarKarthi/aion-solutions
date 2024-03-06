@@ -14,7 +14,6 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
 
         field: "url('../public/content/field.png')",
-        sheep: "url('../public/content/sheep.png')",
       },
     },
   },

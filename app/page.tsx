@@ -10,12 +10,6 @@ export default function Home() {
           </h1>
         </div>
       </div>
-
-      <hr />
-
-      <div className="flex justify-center items-center h-[30dvh] bg-sheep bg-center">
-        ...
-      </div>
     </main>
   );
 }
