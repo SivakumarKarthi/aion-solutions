@@ -1,3 +1,5 @@
+import { Map } from "@/components";
+
 export default function Home() {
   return (
     <main>
@@ -9,6 +11,10 @@ export default function Home() {
             for tomorrow.
           </h1>
         </div>
+      </div>
+
+      <div>
+        <Map />
       </div>
     </main>
   );
