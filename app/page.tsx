@@ -16,11 +16,8 @@ export default function Home() {
       <div>
         <div className="p-8">
           <h1 className="font-bold md:text-3xl text-2xl">Our depositories</h1>
-          
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            venenatis lacinia vehicula.
-          </p>
+
+          <p>Locate your nearest composting depository.</p>
         </div>
 
         <Map
