@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import Logo from "@/public/logo.svg";
 
-export default function Navbar() {
+export default function Header() {
   return (
     <div className="fixed w-full">
       <div className="backdrop-blur-sm">
