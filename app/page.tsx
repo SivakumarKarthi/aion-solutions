@@ -1,3 +1,7 @@
+"use client";
+
+import CountUp from "react-countup";
+
 import { Map } from "@/components";
 
 export default function Home() {
@@ -25,6 +29,18 @@ export default function Home() {
           zoom={16}
           style={{ width: "100%", height: "50dvh" }}
         />
+      </div>
+
+      <div>
+        <div className="md:p-16 p-8">
+          <div className="flex justify-between items-center">
+            <h1 className="font-bold lg:text-7xl md:text-5xl">
+              <CountUp end={1300000000} duration={5} enableScrollSpy={true} />
+            </h1>
+
+            <p className="text-sm">tons of food is wasted annually.</p>
+          </div>
+        </div>
       </div>
     </main>
   );
