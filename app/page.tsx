@@ -34,7 +34,7 @@ export default function Home() {
       <div>
         <div className="lg:p-16 md:p-8 p-4">
           <div className="flex justify-between items-center">
-            <h1 className="font-bold lg:text-7xl md:text-5xl">
+            <h1 className="font-bold lg:text-7xl md:text-5xl text-sm">
               <CountUp end={1300000000} duration={5} enableScrollSpy={true} />
             </h1>
 
